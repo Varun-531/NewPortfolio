@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import ContactSection from "./components/ContactSection";
 import Portfolio from "./components/Portfolio";
 import { Pointer } from "@/components/magicui/pointer";
+import About from "./components/About";
 const App = () => {
   return (
     <div>
@@ -13,6 +14,9 @@ const App = () => {
       </div>
       <section id="hero" className="h-[95vh] ">
         <HeroSection />
+      </section>
+      <section id="about" className="h-[95vh] ">
+        <About />
       </section>
       <section id="portfolio" className="h-[95vh] ">
         <Portfolio />

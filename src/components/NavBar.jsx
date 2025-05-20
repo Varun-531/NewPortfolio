@@ -13,21 +13,17 @@ const NavBar = () => {
       </div>
       <div>
         <ul className="flex gap-4">
-          {/* <NavButton label="Home" active={false} />
-          <NavButton label="Portfolio" active={false} />
-          <NavButton label="About" active={false} />
-          <NavButton label="Projects" active={false} /> */}
           <Button>
             <House />
             Home
           </Button>
           <Button>
-            <Code />
-            Portfolio
-          </Button>
-          <Button>
             <UserRound />
             About
+          </Button>
+          <Button>
+            <Code />
+            Portfolio
           </Button>
           <Button>
             <Rocket />

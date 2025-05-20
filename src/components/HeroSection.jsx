@@ -22,7 +22,7 @@ const HeroSection = () => {
             </h1>
             <div className="flex gap-5">
               <CoolMode>
-                <a href="#portfolio">
+                <a href="#about">
                   <Button className="cursor-pointer">Browse Portfolio</Button>
                 </a>
               </CoolMode>
